@@ -35,9 +35,9 @@
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>330</x>
+       <x>240</x>
        <y>30</y>
-       <width>171</width>
+       <width>131</width>
        <height>41</height>
       </rect>
      </property>
@@ -119,15 +119,15 @@ QPushButton:hover{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>-20</x>
+       <x>60</x>
        <y>20</y>
-       <width>281</width>
+       <width>161</width>
        <height>61</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Gloucester MT Extra Condensed</family>
+       <family>Franklin Gothic Demi Cond</family>
        <pointsize>20</pointsize>
       </font>
      </property>
@@ -166,6 +166,34 @@ QPushButton:hover{
       <string>Cadastrar</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>30</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Franklin Gothic Demi Cond</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(255, 255, 255);
+border-radius: 3px;
+}
+QPushButton:hover{
+	background-color: rgb(255, 204, 74);
+	transform: 5000ms;
+}</string>
+     </property>
+     <property name="text">
+      <string>Cadastrar Usuário</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
@@ -182,15 +210,28 @@ QPushButton:hover{
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QTableView" name="tableView">
+    <widget class="QTabWidget" name="tabelas">
      <property name="geometry">
       <rect>
-       <x>45</x>
-       <y>41</y>
-       <width>1071</width>
-       <height>541</height>
+       <x>66</x>
+       <y>50</y>
+       <width>1021</width>
+       <height>521</height>
       </rect>
      </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tabela_usuarios">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tabela_objetos">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+     </widget>
     </widget>
    </widget>
   </widget>

@@ -6,6 +6,8 @@ from interfaces.inteface_login_encontreme import *
 from interfaces.projetoDevolucaoObjeto import *
 from interfaces.projetoCadastroObjeto import *
 from interfaces.projetoMenu import *
+from Administrador import * 
+
 
 class Logar(QMainWindow,Ui_Login):
     def __init__(self) -> None:
@@ -17,7 +19,10 @@ class Logar(QMainWindow,Ui_Login):
     def logar(self):
         senha=self.pegar_senha()
         user=self.pegar_email()
-        if user=="Admin" and senha=="1234":
+        validacao = Administrador(user,senha)
+        validacao.validar()
+
+        if validacao == True:
             self.w=Menu()
             self.w.show()
             self.close()
