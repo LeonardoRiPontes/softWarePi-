@@ -70,7 +70,7 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>410</x>
         <y>20</y>
         <width>261</width>
         <height>81</height>
@@ -87,66 +87,6 @@
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="gerar_relatorio">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>40</y>
-        <width>161</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Franklin Gothic Demi Cond</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{background-color: rgb(255,255,255);
-border-radius: 15px;
-
-
-}
-QPushButton:hover{
-	background-color: rgb(255, 204, 74);
-	transform: 5000ms;
-}</string>
-      </property>
-      <property name="text">
-       <string>GERAR RELATÓRIO</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="gerar_relatorio_2">
-      <property name="geometry">
-       <rect>
-        <x>690</x>
-        <y>40</y>
-        <width>161</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Franklin Gothic Demi Cond</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{background-color: rgb(255,255,255);
-border-radius: 15px;
-
-
-}
-QPushButton:hover{
-	background-color: rgb(255, 204, 74);
-	transform: 5000ms;
-}</string>
-      </property>
-      <property name="text">
-       <string>Cadastrar Usuário</string>
       </property>
      </widget>
     </widget>
@@ -211,10 +151,40 @@ Abaixo temos nossas interações.</string>
        <string>Bem vindo ao, Encontre Me</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="gerar_relatorio">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>270</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Franklin Gothic Demi Cond</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background-color: rgb(255,255,255);
+border-radius: 15px;
+
+
+}
+QPushButton:hover{
+	background-color: rgb(255, 204, 74);
+	transform: 5000ms;
+}</string>
+      </property>
+      <property name="text">
+       <string>GERAR RELATÓRIO</string>
+      </property>
+     </widget>
      <widget class="QPushButton" name="btn_cadastro">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>90</x>
         <y>270</y>
         <width>211</width>
         <height>61</height>
@@ -244,7 +214,7 @@ QPushButton:hover{
      <widget class="QPushButton" name="btn_devolucao">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>570</x>
         <y>270</y>
         <width>211</width>
         <height>61</height>

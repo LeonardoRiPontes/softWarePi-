@@ -21,12 +21,12 @@ class Logar(QMainWindow,Ui_Login):
         user=self.pegar_email()
         validacao = Administrador(None,user,senha)
 
-        if validacao == True:
+        if (validacao.senha == senha and validacao.usr_login == user):
             self.w=Menu()
             self.w.show()
             self.close()
         else:
-            print("senha ou usuario invalio")
+            print(senha,user)
 
 class Menu(QMainWindow,Ui_Menu):
     def __init__(self) -> None:
