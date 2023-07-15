@@ -161,3 +161,26 @@ class Ui_CadastroObjeto(object):
         self.lbl_periodo.setText(QCoreApplication.translate("CadastroObjeto", u"PER\u00cdODO:", None))
     # retranslateUi
 
+    def pegar_descrição(self):
+        descricao= self.edit_descricao.text()
+        return descricao
+    def pegar_sala(self):
+        sala= self.edit_sala.text()
+        return sala
+    def pegar_data(self):
+        data= self.dateEdit.text()
+        return data
+    def verificar_radio(self):
+        if self.radio_mat.isChecked():
+            return "Matunino"
+        elif self.radio_ves.isChecked():
+            return "Vespertino"
+        elif self.radio_not.isChecked():
+            return "Noturno"
+        else:
+            print("Nenhum radio button foi marcado.")
+
+        
+
+        
+

@@ -130,3 +130,12 @@ class Ui_CadastroUsuario(object):
         self.btn_cadastrar.setText(QCoreApplication.translate("CadastroUsuario", u"CADASTRAR", None))
     # retranslateUi
 
+    def pegar_usuer(self):
+        user= self.edit_user.text()
+        return user
+    def pegar_senha(self):
+        senha= self.edit_senha.text()
+        return senha
+    def pegar_confirmar(self):
+        confirmar= self.edit_confirmar.text()
+        return confirmar

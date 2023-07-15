@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
 
-#Config
+# Config
 engine = create_engine('mysql+pymysql://root:Gloria28@localhost:3306/projeto_integrador')#Alterar url conforme seu servidor
 Base = declarative_base()
 Session = sessionmaker(bind=engine)

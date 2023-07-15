@@ -52,8 +52,8 @@
     <widget class="QFrame" name="frame_2">
      <property name="geometry">
       <rect>
-       <x>-20</x>
-       <y>0</y>
+       <x>0</x>
+       <y>10</y>
        <width>1051</width>
        <height>121</height>
       </rect>
@@ -70,7 +70,7 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>90</x>
         <y>20</y>
         <width>261</width>
         <height>81</height>
@@ -92,9 +92,9 @@
      <widget class="QPushButton" name="gerar_relatorio">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>390</x>
         <y>40</y>
-        <width>161</width>
+        <width>171</width>
         <height>41</height>
        </rect>
       </property>
@@ -119,12 +119,12 @@ QPushButton:hover{
        <string>GERAR RELATÓRIO</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="gerar_relatorio_2">
+     <widget class="QPushButton" name="cadastrarUsuario">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>590</x>
         <y>40</y>
-        <width>161</width>
+        <width>171</width>
         <height>41</height>
        </rect>
       </property>
@@ -146,7 +146,37 @@ QPushButton:hover{
 }</string>
       </property>
       <property name="text">
-       <string>Cadastrar Usuário</string>
+       <string>CADASTRAR USUÁRIO</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="atualizarRegistro">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>40</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Franklin Gothic Demi Cond</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background-color: rgb(255,255,255);
+border-radius: 15px;
+
+
+}
+QPushButton:hover{
+	background-color: rgb(255, 204, 74);
+	transform: 5000ms;
+}</string>
+      </property>
+      <property name="text">
+       <string>ATUALIZAR REGISTRO</string>
       </property>
      </widget>
     </widget>
@@ -238,7 +268,7 @@ QPushButton:hover{
 }</string>
       </property>
       <property name="text">
-       <string>CADASTRO DE OBJETOS</string>
+       <string>CADASTAR NOVO OBJETOS</string>
       </property>
      </widget>
      <widget class="QPushButton" name="btn_devolucao">

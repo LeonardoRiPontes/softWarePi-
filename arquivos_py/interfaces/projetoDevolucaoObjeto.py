@@ -137,3 +137,13 @@ class Ui_DevolucaoObjeto(object):
         self.lbl_sala.setText(QCoreApplication.translate("DevolucaoObjeto", u"MATR\u00cdCULA DO SOLICITANTE:", None))
     # retranslateUi
 
+   
+    def pegar_id(self):
+        id_objeto= self.edit_id.text()
+        return id_objeto
+    def pegar_matricula(self):
+        matricula= self.edit_matricula.text()
+        return matricula
+    def pegar_data_devolucao(self):
+        data_devolucao= self.dateEdit.text()
+        return data_devolucao
